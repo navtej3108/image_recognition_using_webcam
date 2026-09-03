@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 video_capture = cv2.VideoCapture(0)
-elon_image = face_recognition.load_image_file(r"C:\Users\navte\OneDrive\Desktop\Navtej Pawan\Python\webcam\image\Elon Musk.png")
+elon_image = face_recognition.load_image_file(r"<<Image address>>")
 elon_face_encoding = face_recognition.face_encodings(elon_image)[0]
 
 known_face_encodings = [
